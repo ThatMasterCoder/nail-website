@@ -19,20 +19,16 @@
       "dest": "/backend/app.py"
     },
     {
-      "src": "/",
-      "dest": "/frontend/index.html"
-    },
-    {
       "src": "/about",
-      "dest": "/frontend/about.html"
+      "dest": "/about.html"
     },
     {
       "src": "/gallery",
-      "dest": "/frontend/gallery.html"
+      "dest": "/gallery.html"
     },
     {
       "src": "/(.*)",
-      "dest": "/frontend/$1"
+      "dest": "/$1"
     }
   ]
 }
