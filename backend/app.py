@@ -10,11 +10,11 @@ FRONTEND_FOLDER = os.path.join(os.path.dirname(__file__), '..', 'frontend')
 def index():
     return send_from_directory(FRONTEND_FOLDER, 'index.html')
 
-@app.route('/gallery')
+@app.route('/gallery.html')
 def gallery():
     return send_from_directory(FRONTEND_FOLDER, 'gallery.html')
 
-@app.route('/about')
+@app.route('/about.html')
 def about():
     return send_from_directory(FRONTEND_FOLDER, 'about.html')
 
